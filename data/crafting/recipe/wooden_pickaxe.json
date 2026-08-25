@@ -1,0 +1,98 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "#minecraft:wooden_tool_materials"
+  },
+  "pattern": [
+    "XXX",
+    " # ",
+    " # "
+  ],
+  "result": {
+    "id": "minecraft:wooden_pickaxe",
+    "components": {
+      "minecraft:item_name": {
+        "translate": "item.minecraft.wooden_pickaxe"
+      },
+      "minecraft:tool": {
+        "rules": [
+          {
+            "blocks": "#minecraft:copper_ores",
+            "speed": 3,
+            "correct_for_drops": true
+          },
+          {
+            "blocks": "#minecraft:coal_ores",
+            "speed": 3,
+            "correct_for_drops": true
+          },
+          {
+            "blocks": "#minecraft:iron_ores",
+            "speed": 3,
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#minecraft:gold_ores",
+            "speed": 3,
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#minecraft:diamond_ores",
+            "speed": 3,
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#minecraft:emerald_ores",
+            "speed": 3,
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#minecraft:redstone_ores",
+            "speed": 3,
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#minecraft:lapis_ores",
+            "speed": 3,
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#minecraft:mineable/pickaxe",
+            "speed": 3,
+            "correct_for_drops": true
+          }
+        ],
+        "default_mining_speed": 1,
+        "damage_per_block": 1
+      },
+      "minecraft:max_damage": 150,
+      "minecraft:lore": [
+        {
+          "text": "⛏ 3",
+          "color": "blue",
+          "italic": false
+        },
+        {
+          "text": "🗡 2",
+          "color": "dark_green",
+          "italic": false
+        },
+        {
+          "text": "🌊 1.2",
+          "color": "dark_green",
+          "italic": false
+        }
+      ],
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      },
+      "minecraft:custom_data": {
+        "heart_stone_custom": 1
+      }
+    }
+  }
+}

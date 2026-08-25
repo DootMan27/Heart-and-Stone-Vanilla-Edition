@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "minecraft:bedrock"
+  },
+  "pattern": [
+    "XX ",
+    "X# ",
+    " # "
+  ],
+  "result": {
+    "id": "minecraft:stone_axe",
+    "components": {
+      "minecraft:item_name": {
+        "translate": "item.minecraft.stone_axe"
+      },
+      "minecraft:max_damage": 200,
+      "minecraft:lore": [
+        {
+          "text": "⛏ 4",
+          "color": "blue",
+          "italic": false
+        },
+        {
+          "text": "🗡 9",
+          "color": "dark_green",
+          "italic": false
+        },
+        {
+          "text": "🌊 0.8",
+          "color": "dark_green",
+          "italic": false
+        }
+      ],
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      },
+      "minecraft:custom_data": {
+        "heart_stone_custom": 1
+      }
+    }
+  }
+}

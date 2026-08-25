@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "diamond"
+  },
+  "pattern": [
+    "X",
+    "X",
+    "#"
+  ],
+  "result": {
+    "id": "minecraft:diamond_sword",
+    "components": {
+      "minecraft:item_name": {
+        "translate": "item.minecraft.diamond_sword"
+      },
+      "minecraft:max_damage": 2200,
+      "minecraft:lore": [
+        {
+          "text": "🗡 7",
+          "color": "dark_green",
+          "italic": false
+        },
+        {
+          "text": "🌊 1.6",
+          "color": "dark_green",
+          "italic": false
+        }
+      ],
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      },
+      "minecraft:custom_data": {
+        "heart_stone_custom": 1
+      }
+    }
+  }
+}

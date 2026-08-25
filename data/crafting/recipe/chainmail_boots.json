@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "minecraft:bedrock"
+  },
+  "pattern": [
+    "X X",
+    "X X"
+  ],
+  "result": {
+    "id": "minecraft:chainmail_boots",
+    "components": {
+      "minecraft:item_name": {
+        "translate": "item.minecraft.chainmail_boots"
+      },
+      "minecraft:max_damage": 400,
+      "minecraft:lore": [
+        {
+          "text": "🛡 1",
+          "color": "dark_green",
+          "italic": false
+        }
+      ],
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      },
+      "minecraft:custom_data": {
+        "heart_stone_custom": 1
+      }
+    }
+  }
+}
