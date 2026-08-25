@@ -1,0 +1,45 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:item_name": {
+      "translate": "item.minecraft.golden_boots"
+    },
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:armor",
+        "id": "minecraft:armor.boots",
+        "amount": 2,
+        "operation": "add_value",
+        "slot": "feet"
+      },
+      {
+        "type": "minecraft:burning_time",
+        "id": "minecraft:armor.boots",
+        "amount": -0.1,
+        "operation": "add_multiplied_base",
+        "slot": "feet"
+      }
+    ],
+    "minecraft:max_damage": 175,
+    "minecraft:lore": [
+      {
+        "text": "🛡 2",
+        "color": "dark_green",
+        "italic": false
+      },
+      {
+        "text": "🔥 -10%",
+        "color": "dark_green",
+        "italic": false
+      }
+    ],
+    "minecraft:tooltip_display": {
+      "hidden_components": [
+        "minecraft:attribute_modifiers"
+      ]
+    },
+    "minecraft:custom_data": {
+      "heart_stone_custom": 1
+    }
+  }
+}

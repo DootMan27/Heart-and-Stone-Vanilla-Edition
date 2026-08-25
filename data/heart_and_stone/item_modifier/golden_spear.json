@@ -1,0 +1,45 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:item_name": {
+      "translate": "item.minecraft.golden_spear"
+    },
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:attack_damage",
+        "id": "attack_damage",
+        "amount": 0,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "type": "minecraft:attack_speed",
+        "id": "attack_speed",
+        "amount": -2.95,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "minecraft:max_damage": 200,
+    "minecraft:lore": [
+      {
+        "text": "🗡 1",
+        "color": "dark_green",
+        "italic": false
+      },
+      {
+        "text": "🌊 1.05",
+        "color": "dark_green",
+        "italic": false
+      }
+    ],
+    "minecraft:tooltip_display": {
+      "hidden_components": [
+        "minecraft:attribute_modifiers"
+      ]
+    },
+    "minecraft:custom_data": {
+      "heart_stone_custom": 1
+    }
+  }
+}

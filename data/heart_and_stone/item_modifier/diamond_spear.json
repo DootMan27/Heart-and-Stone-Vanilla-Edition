@@ -1,0 +1,29 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:item_name": {
+      "translate": "item.minecraft.diamond_spear"
+    },
+    "minecraft:max_damage": 2200,
+    "minecraft:lore": [
+      {
+        "text": "🗡 4",
+        "color": "dark_green",
+        "italic": false
+      },
+      {
+        "text": "🌊 0.95",
+        "color": "dark_green",
+        "italic": false
+      }
+    ],
+    "minecraft:tooltip_display": {
+      "hidden_components": [
+        "minecraft:attribute_modifiers"
+      ]
+    },
+    "minecraft:custom_data": {
+      "heart_stone_custom": 1
+    }
+  }
+}
