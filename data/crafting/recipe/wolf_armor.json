@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": "minecraft:armadillo_scute"
+  },
+  "pattern": [
+    "S  ",
+	"SSS",
+    "S S"
+  ],
+  "result": {
+    "id": "minecraft:wolf_armor",
+    "components": {
+      "minecraft:item_name": {
+        "translate": "item.minecraft.wolf_armor"
+      },
+      "minecraft:max_damage": 64,
+      "minecraft:lore": [
+        {
+          "text": "🛡 11",
+          "color": "dark_green",
+          "italic": false
+        }
+      ],
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      },
+      "minecraft:custom_data": {
+        "heart_stone_custom": 1
+      }
+    }
+  }
+}

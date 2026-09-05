@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "minecraft:bedrock"
+  },
+  "pattern": [
+    "XX ",
+    " # ",
+    " # "
+  ],
+  "result": {
+    "id": "minecraft:stone_hoe",
+    "components": {
+      "minecraft:item_name": {
+        "translate": "item.minecraft.stone_hoe"
+      },
+      "minecraft:max_damage": 200,
+      "minecraft:lore": [
+        {
+          "text": "⛏ 4",
+          "color": "blue",
+          "italic": false
+        },
+        {
+          "text": "🗡 1",
+          "color": "dark_green",
+          "italic": false
+        },
+        {
+          "text": "🌊 2",
+          "color": "dark_green",
+          "italic": false
+        }
+      ],
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      },
+      "minecraft:custom_data": {
+        "heart_stone_custom": 1
+      }
+    }
+  }
+}

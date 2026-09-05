@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "minecraft:leather"
+  },
+  "pattern": [
+    "XXX",
+    "X X"
+  ],
+  "result": {
+    "id": "minecraft:leather_helmet",
+    "components": {
+      "minecraft:item_name": {
+        "translate": "item.minecraft.leather_helmet"
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:armor",
+          "id": "minecraft:armor.helmet",
+          "amount": 1,
+          "operation": "add_value",
+          "slot": "head"
+        },
+        {
+          "type": "minecraft:fall_damage_multiplier",
+          "id": "minecraft:armor.helmet",
+          "amount": -0.1,
+          "operation": "add_multiplied_base",
+          "slot": "head"
+        }
+      ],
+      "minecraft:max_damage": 125,
+      "minecraft:lore": [
+        {
+          "text": "🛡 1",
+          "color": "dark_green",
+          "italic": false
+        },
+        {
+          "text": "⬇🛡 +10%",
+          "color": "dark_green",
+          "italic": false
+        }
+      ],
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      },
+      "minecraft:custom_data": {
+        "heart_stone_custom": 1
+      }
+    }
+  }
+}

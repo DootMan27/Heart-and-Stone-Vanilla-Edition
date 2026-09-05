@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "H": "minecraft:heavy_core",
+    "#": "minecraft:breeze_rod"
+  },
+  "pattern": [
+    "H",
+    "#"
+  ],
+  "result": {
+    "id": "minecraft:mace",
+    "components": {
+      "minecraft:item_name": {
+        "translate": "item.minecraft.mace"
+      },
+      "minecraft:repairable": {
+        "items": [
+          "minecraft:breeze_rod"
+        ]
+      },
+      "minecraft:max_damage": 3000,
+      "minecraft:lore": [
+        {
+          "text": "🗡 6",
+          "color": "dark_green",
+          "italic": false
+        },
+        {
+          "text": "🌊 0.6",
+          "color": "dark_green",
+          "italic": false
+        }
+      ],
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      },
+      "minecraft:custom_data": {
+        "heart_stone_custom": 1
+      }
+    }
+  }
+}
