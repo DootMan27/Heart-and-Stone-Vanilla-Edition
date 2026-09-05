@@ -1,0 +1,28 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:item_name": {
+      "translate": "item.minecraft.diamond_nautilus_armor"
+    },
+    "minecraft:lore": [
+      {
+        "text": "🛡 11",
+        "color": "dark_green",
+        "italic": false
+      },
+      {
+        "text": "⛨ 2",
+        "color": "dark_green",
+        "italic": false
+      }
+    ],
+    "minecraft:tooltip_display": {
+      "hidden_components": [
+        "minecraft:attribute_modifiers"
+      ]
+    },
+    "minecraft:custom_data": {
+      "heart_stone_custom": 1
+    }
+  }
+}

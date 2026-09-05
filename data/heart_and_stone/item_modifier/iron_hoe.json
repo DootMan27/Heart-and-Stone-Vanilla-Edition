@@ -1,0 +1,44 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:item_name": {
+      "translate": "item.minecraft.iron_hoe"
+    },
+    "minecraft:tool": {
+      "rules": [
+        {
+          "blocks": "#minecraft:mineable/hoe",
+          "speed": 8
+        }
+      ],
+      "default_mining_speed": 1,
+      "damage_per_block": 1
+    },
+    "minecraft:max_damage": 700,
+    "minecraft:lore": [
+      {
+        "text": "⛏ 8",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "🗡 1",
+        "color": "dark_green",
+        "italic": false
+      },
+      {
+        "text": "🌊 3",
+        "color": "dark_green",
+        "italic": false
+      }
+    ],
+    "minecraft:tooltip_display": {
+      "hidden_components": [
+        "minecraft:attribute_modifiers"
+      ]
+    },
+    "minecraft:custom_data": {
+      "heart_stone_custom": 1
+    }
+  }
+}

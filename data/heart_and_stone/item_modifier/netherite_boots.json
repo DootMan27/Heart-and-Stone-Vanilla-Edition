@@ -1,0 +1,40 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:item_name": {
+      "translate": "item.minecraft.netherite_boots"
+    },
+    "minecraft:repairable": {
+      "items": [
+        "minecraft:netherite_ingot",
+        "minecraft:netherite_scrap"
+      ]
+    },
+    "minecraft:max_damage": 1750,
+    "minecraft:lore": [
+      {
+        "text": "🛡 3",
+        "color": "dark_green",
+        "italic": false
+      },
+      {
+        "text": "⛨ 3",
+        "color": "dark_green",
+        "italic": false
+      },
+      {
+        "text": "⚓ +10%",
+        "color": "dark_green",
+        "italic": false
+      }
+    ],
+    "minecraft:tooltip_display": {
+      "hidden_components": [
+        "minecraft:attribute_modifiers"
+      ]
+    },
+    "minecraft:custom_data": {
+      "heart_stone_custom": 1
+    }
+  }
+}

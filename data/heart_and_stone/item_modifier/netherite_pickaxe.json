@@ -1,0 +1,51 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:item_name": {
+      "translate": "item.minecraft.netherite_pickaxe"
+    },
+    "minecraft:tool": {
+      "rules": [
+        {
+          "blocks": "#minecraft:mineable/pickaxe",
+          "speed": 15,
+          "correct_for_drops": true
+        }
+      ],
+      "default_mining_speed": 1,
+      "damage_per_block": 1
+    },
+    "minecraft:repairable": {
+      "items": [
+        "minecraft:netherite_ingot",
+        "minecraft:netherite_scrap"
+      ]
+    },
+    "minecraft:max_damage": 8000,
+    "minecraft:lore": [
+      {
+        "text": "⛏ 15",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "🗡 6",
+        "color": "dark_green",
+        "italic": false
+      },
+      {
+        "text": "🌊 1.2",
+        "color": "dark_green",
+        "italic": false
+      }
+    ],
+    "minecraft:tooltip_display": {
+      "hidden_components": [
+        "minecraft:attribute_modifiers"
+      ]
+    },
+    "minecraft:custom_data": {
+      "heart_stone_custom": 1
+    }
+  }
+}
