@@ -16,10 +16,21 @@
       "minecraft:item_name": {
         "translate": "item.minecraft.wooden_axe"
       },
+	  "minecraft:tool": {
+        "rules": [
+          {
+            "blocks": "#minecraft:mineable/axe",
+            "speed": 3,
+            "correct_for_drops": true
+          }
+        ],
+        "default_mining_speed": 1,
+        "damage_per_block": 1
+      },
       "minecraft:max_damage": 150,
       "minecraft:lore": [
         {
-          "text": "⛏ 2",
+          "text": "⛏ 3",
           "color": "blue",
           "italic": false
         },

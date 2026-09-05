@@ -2,33 +2,21 @@
   "function": "minecraft:set_components",
   "components": {
     "minecraft:item_name": {
-      "translate": "item.minecraft.wooden_axe"
+      "translate": "item.minecraft.netherite_nautilus_armor"
     },
-    "minecraft:tool": {
-        "rules": [
-          {
-            "blocks": "#minecraft:mineable/axe",
-            "speed": 3,
-            "correct_for_drops": true
-          }
-        ],
-        "default_mining_speed": 1,
-        "damage_per_block": 1
-    },
-	"minecraft:max_damage": 150,
     "minecraft:lore": [
       {
-        "text": "⛏ 3",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "🗡 7",
+        "text": "🛡 19",
         "color": "dark_green",
         "italic": false
       },
       {
-        "text": "🌊 0.8",
+        "text": "⛨ 3",
+        "color": "dark_green",
+        "italic": false
+      },
+      {
+        "text": "⚓ +10%",
         "color": "dark_green",
         "italic": false
       }

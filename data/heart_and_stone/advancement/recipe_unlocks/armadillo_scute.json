@@ -5,7 +5,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:leather"
+						"items": "minecraft:armadillo_scute"
 					}
 				]
 			},
@@ -19,11 +19,7 @@
 	],
 	"rewards": {
 		"recipes": [
-			"crafting:leather_boots",
-			"crafting:leather_chestplate",
-			"crafting:leather_pants",
-			"crafting:leather_helmet",
-			"crafting:leather_horse_armor"
+			"crafting:wolf_armor"
 		]
 	}
 }

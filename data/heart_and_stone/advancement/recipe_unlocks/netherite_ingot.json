@@ -28,7 +28,8 @@
 			"smithing_table:netherite_chestplate",
 			"smithing_table:netherite_leggings",
 			"smithing_table:netherite_boots",
-			"smithing_table:netherite_spear"
+			"smithing_table:netherite_spear",
+			"smithing_table:netherite_horse_armor"
 		]
 	}
 }
