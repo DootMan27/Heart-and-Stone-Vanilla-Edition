@@ -148,6 +148,10 @@
       },
       {
         "namespace": "minecraft",
+        "path": "recipe/iron_chain.json"
+      },
+      {
+        "namespace": "minecraft",
         "path": "recipe/iron_chestplate.json"
       },
       {
