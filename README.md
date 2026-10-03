@@ -21,4 +21,4 @@ Drop the pack into your world's `datapacks` folder and run `/reload` (or restart
 **Note:** Removing the pack later won't undo the conversion - items keep their new stats either way.
 
 ---
-*For Minecraft 1.21.11 - 26.2*
+*For Minecraft 1.21.11 - 26.3*
